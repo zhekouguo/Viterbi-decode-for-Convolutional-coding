@@ -18,7 +18,7 @@ Viterbi decoding for convolutional encoding, applicable to (N, K, M)convolution 
      "000010101011111110101010101000000100001101101000010100011000000011101010100110101001100001001010",//this string is need to decode
       "000101001101010101110011000000001001011110110011111011111111110000000000", 3); //This is correct string after decoding 
 
-![](/home/evoc/.config/marktext/images/2023-04-26-10-57-08-1.png)
+![](1.png)
 
 ### Parameter Description：
 
@@ -26,8 +26,8 @@ The parameters we need to determine during decoding include polynomials, constra
 
 The number of polynomials is determined by the number of outputs or N of (N, K, M),The coefficients of the polynomial are illustrated in the following figure.
 
-![](/home/evoc/.config/marktext/images/2023-04-26-11-02-48-3.png)
+![](3.png)
 
 The constraint coefficient is equal to the sum of polynomials，The constraint in the figure above is equal to 12.The description of stride is shown in the following figure.The stride of（4,3,3）convolution qeual to 3.
 
-![](/home/evoc/.config/marktext/images/2023-04-26-11-05-32-2.png)
+![](2.png)
